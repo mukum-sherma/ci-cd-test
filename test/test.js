@@ -7,4 +7,10 @@ describe("GET /", function(){
         //navigate to root and check the response is "hello world"
         request(app).get("/").expect("mukum",done);
     });
+
+    setTimeout(function () {
+        console.log('timeout completed'); 
+        process.exit();
+    }, 3000);
+    
 });
