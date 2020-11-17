@@ -3,7 +3,7 @@ var app = require("../app.js");
 var assert = require('assert');
 
 describe("GET /", function(){
-    it('     respond with hello world, good, great, yea 11', function(done){
+    it('  respond with hello world, good, great, yea 11', function(done){
 
         //navigate to root and check the response is "hello world"
         request(app).get("/").expect("mukum",done);
