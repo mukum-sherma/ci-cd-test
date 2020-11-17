@@ -1,6 +1,6 @@
 
 #!/bin/sh
-ssh mukum@35.238.144.250 /bin/bash <<EOF
+ssh mukum@35.238.144.250 <<EOF
  cd ~/node-server/ci-cd-test
  git pull
  npm install — production
