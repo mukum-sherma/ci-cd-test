@@ -10,7 +10,7 @@ describe("GET /", function(){
     });
 
     setTimeout(function () {
-        console.log('timeout completed'); 
+        console.log('timeout completed great'); 
         process.exit();
     }, 3000);
     
