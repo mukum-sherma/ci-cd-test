@@ -16,6 +16,6 @@ app.get("/", function (req, res) {
  res.send("mukum");
 });
 //listen to port 3000 by default
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 3000);
  
 module.exports = app;
