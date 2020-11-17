@@ -5,6 +5,6 @@ describe("GET /", function(){
     it('respond with hello wordl', function(done){
 
         //navigate to root and check the response is "hello world"
-        request(app).get("/").expect("JENKINS IS GREAT",done);
+        request(app).get("/").expect("mukum",done);
     });
 });
