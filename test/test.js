@@ -6,7 +6,7 @@ describe("GET /", function(){
     it(' respond   with hello world, good, great, yea 11', function(done){
 
         //navigate to root and check the response is "hello world"
-        request(app).get("/").expect("mukum where are you ? hi good, pm2 is added, watch it, great, love it, gooood, hk",done);
+        request(app).get("/").expect("love it mukum where are you ? hi good, pm2 is added, watch it, great, love it, gooood, hk",done);
     });
 
     setTimeout(function () {
