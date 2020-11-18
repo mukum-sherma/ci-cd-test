@@ -6,8 +6,8 @@ ssh mukum@35.238.144.250 /bin/bash <<EOF
  #npm install -- production
  #pm2 restart all
  npm install
- #pm2 restart all
+ pm2 restart all
  #pm2 start app.js
- node app.js
+ #node app.js
  exit
 EOF
