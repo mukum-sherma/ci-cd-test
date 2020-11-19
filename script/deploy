@@ -1,6 +1,6 @@
 
 #!/bin/sh
-ssh mukum@35.238.144.250 /bin/bash <<EOF
+:'ssh mukum@35.238.144.250 /bin/bash <<EOF
  cd ~/node-server/ci-cd-test
  git pull
  #npm install -- production
@@ -10,4 +10,10 @@ ssh mukum@35.238.144.250 /bin/bash <<EOF
  #pm2 start app.js
  #node app.js
  exit
-EOF
+EOF'
+
+cd ~/ci-cd-test
+ git pull
+ npm install
+ pm2 restart all
+ #node app.js
