@@ -15,5 +15,6 @@ EOF'
 cd ~/ci-cd-test
  git pull
  npm install
- pm2 restart all
+ #pm2 restart all
+ node app.js
  #node app.js
